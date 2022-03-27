@@ -28,7 +28,7 @@ export default class Home extends React.Component {
         <article>
           {
             this.content.map((paragraph, i) => {
-              return <Paragraph title={ paragraph.title } background={ i % 2 === 0 ? 'bg-gray-100' : 'bg-white' }>{ paragraph.text }</Paragraph>
+              return <Paragraph key={i} title={ paragraph.title } background={ i % 2 === 0 ? 'bg-gray-100' : 'bg-white' }>{ paragraph.text }</Paragraph>
             })
           }
         </article>
