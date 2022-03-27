@@ -23,7 +23,7 @@ export default class Home extends React.Component {
           <h3 className="pt-10 text-center text-lg mb-8">Wissenschaft</h3>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center mb-8 font-bold">Blaue Häkchen und dunkles Design - Wie soziale Medien uns manipulieren und wie man sie umgestalten könnte</h1>
           <p className="text-lg text-center mb-8">Soziale Anwendungen wie WhatsApp oder Instagram sind darauf ausgelegt ihre NutzerInnen möglichst lange an den Bildschirm zu fesseln. Doch wie schaffen sie das, warum ist das problematisch und wie könnten sie umgestaltet werden, um einen gesunden Umgang zu fördern?</p>
-          <div className="py-2 px-6 bg-gray-200 mb-20 mx-auto w-fit rounded-full">Von Robert Sauter | 31.03.2022 | 5 Min Lesezeit</div>
+          <h3 className="py-2 px-6 bg-gray-200 mb-20 mx-auto w-fit rounded-full">Von Robert Sauter | 31.03.2022 | 5 Min Lesezeit</h3>
         </div>
         <article>
           {
