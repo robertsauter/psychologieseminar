@@ -6,6 +6,19 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+article a:hover {
+    text-decoration: underline;
+}
+
 .homeLink {
     font-family: 'Comfortaa', sans-serif;
+}
+
+@layer components {
+    #citationWrapper {
+        @apply text-sm;
+    }
+    #citationWrapper p {
+        @apply mb-3 break-words;
+    }
 }

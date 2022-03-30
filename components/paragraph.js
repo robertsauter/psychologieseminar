@@ -10,4 +10,4 @@ export default class Paragraph extends React.Component {
         </div>
     );
   }
-  }
+}
