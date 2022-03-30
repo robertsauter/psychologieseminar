@@ -15,9 +15,9 @@ export default class Layout extends React.Component {
               </Head>
               <header>
                 <Navbar></Navbar>
-                <Image className="absolute top-0 left-0 z-0" layout="fill" src="/header-image.jpg" alt="phone-background" />
+                <img className="absolute top-0 left-0 z-0" src="/header-image.jpg" alt="phone-background" />
               </header>
-              <main className=" mt-60 sm:mt-96 relative z-10 max-w-4xl mx-auto">{ this.props.children }</main>
+              <main className="mt-32 sm:mt-96 relative z-10 max-w-4xl mx-auto">{ this.props.children }</main>
               <footer className="px-4 sm:px-20 bg-gray-100 flex py-12 items-center justify-between">
                 <HomeLink></HomeLink>
                 <Link href="/imprint">
